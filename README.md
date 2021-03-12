@@ -1,0 +1,2 @@
+# WinFormCarouselControl
+简易WinForm轮播控件

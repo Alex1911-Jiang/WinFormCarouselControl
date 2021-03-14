@@ -41,7 +41,7 @@ namespace CarouselControl
                     int iLeftOrder = 0;
                     foreach (Image img in _ImageAndActions.Keys)
                     {
-                        Panel pnlImage = new Panel();
+                        ImagePanel pnlImage = new ImagePanel();
                         pnlImage.Size = new Size(Width, Height);
                         pnlImage.Location = new Point(iLeftOrder * Width, 0);
                         pnlImage.BackgroundImage = img;
@@ -166,6 +166,15 @@ namespace CarouselControl
 
                     tAutoPlay.Start();
                 }
+            }
+        }
+
+        private class ImagePanel : Panel
+        {
+            public ImagePanel()
+            {
+                GetType().GetProperty("DoubleBuffered", System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.NonPublic).SetValue(this, true, null);
+                BackgroundImageLayout = ImageLayout.Zoom;
             }
         }
     }

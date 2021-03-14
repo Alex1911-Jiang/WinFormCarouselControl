@@ -36,7 +36,7 @@ namespace FormTest
             // 
             this.carouselPanel1.Location = new System.Drawing.Point(82, 40);
             this.carouselPanel1.Name = "carouselPanel1";
-            this.carouselPanel1.Size = new System.Drawing.Size(600, 250);
+            this.carouselPanel1.Size = new System.Drawing.Size(491, 384);
             this.carouselPanel1.TabIndex = 0;
             // 
             // Form1
@@ -46,6 +46,7 @@ namespace FormTest
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.carouselPanel1);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.ResumeLayout(false);
 

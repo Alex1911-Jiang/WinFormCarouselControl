@@ -36,7 +36,7 @@ namespace FormTest
             // 
             this.carouselPanel1.Location = new System.Drawing.Point(82, 40);
             this.carouselPanel1.Name = "carouselPanel1";
-            this.carouselPanel1.Size = new System.Drawing.Size(491, 384);
+            this.carouselPanel1.Size = new System.Drawing.Size(600, 250);
             this.carouselPanel1.TabIndex = 0;
             // 
             // Form1

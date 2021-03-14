@@ -1,10 +1,8 @@
 # WinFormCarouselControl
 简易WinForm轮播控件
 
-别问, 问就是浏览器白屏
+问就是浏览器白屏
 
-效果不太完美, 有闪烁感, 添加双缓冲依旧
+能拖动翻页和自动复位, 也可以给每个图片单独注册事件
 
-起码是能拖动和自动归位, 将就用
-
-![gif](https://user-images.githubusercontent.com/50268952/110946667-1ebec680-837a-11eb-9b01-f6e354f39183.gif)
+![gif](https://user-images.githubusercontent.com/50268952/111053967-7dcc2a80-84a3-11eb-86f0-d64557c8a3b4.gif)
